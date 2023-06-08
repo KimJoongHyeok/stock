@@ -51,7 +51,7 @@ class StockServiceTest {
         assertEquals(99, stock.getQuantity());
     }
 
-    // 레이스 컨디션 떄문에 맞지 실패하는 테스트
+    // 레이스 컨디션 떄문에 맞지 실패하는 테스트 -> synchronized 적용 전
     // TODO 레이스 컨디션 자세히 알아보기
     @Test
     public void 동시에_100개의_요청() throws Exception {
