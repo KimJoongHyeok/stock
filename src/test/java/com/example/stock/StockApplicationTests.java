@@ -10,4 +10,6 @@ class StockApplicationTests {
 	void contextLoads() {
 	}
 
+
+
 }
